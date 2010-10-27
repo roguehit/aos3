@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/xmlrpc-c/!svn/ver/1721/stable/tools/xmlrpc
+END
+xmlrpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/tools/xmlrpc/xmlrpc.c
+END
+xmlrpc.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/tools/xmlrpc/xmlrpc.html
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1721/stable/tools/xmlrpc/Makefile
+END

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/xmlrpc-c/!svn/ver/1957/stable/src/cpp
+END
+xml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/xml.cpp
+END
+server_pstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/server_pstream.cpp
+END
+curl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/curl.cpp
+END
+server_abyss.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/xmlrpc-c/!svn/ver/1753/stable/src/cpp/server_abyss.cpp
+END
+XmlRpcCpp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/XmlRpcCpp.cpp
+END
+registry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/registry.cpp
+END
+pstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/pstream.cpp
+END
+outcome.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/outcome.cpp
+END
+libwww.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/libwww.cpp
+END
+fault.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/fault.cpp
+END
+value.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/value.cpp
+END
+wininet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/wininet.cpp
+END
+client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/client.cpp
+END
+packetsocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/packetsocket.cpp
+END
+girmem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/girmem.cpp
+END
+env_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/env_wrap.cpp
+END
+base64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1957/stable/src/cpp/base64.cpp
+END
+env_wrap.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/env_wrap.hpp
+END
+client_simple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1074/stable/src/cpp/client_simple.cpp
+END
+server_cgi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/server_cgi.cpp
+END
+girerr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/girerr.cpp
+END
+param_list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/param_list.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/xmlrpc-c/!svn/ver/1770/stable/src/cpp/Makefile
+END

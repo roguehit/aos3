@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/xmlrpc-c/!svn/ver/1969/stable
+END
+mkinstalldirs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/mkinstalldirs
+END
+config.mk.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/xmlrpc-c/!svn/ver/1753/stable/config.mk.in
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/configure
+END
+unix-common.make
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/unix-common.make
+END
+xmlrpc_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1798/stable/xmlrpc_config.h.in
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/configure.in
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/xmlrpc-c/!svn/ver/1794/stable/GNUmakefile
+END
+xmlrpc-c-config.test.main
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/xmlrpc-c-config.test.main
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/config.guess
+END
+version.mk
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/xmlrpc-c/!svn/ver/1969/stable/version.mk
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/config.sub
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/README
+END
+transport_config.make
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/transport_config.make
+END
+common.mk
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/common.mk
+END
+srcdir.mk.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/srcdir.mk.in
+END
+xmlrpc_amconfig.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/xmlrpc_amconfig.h.in
+END
+dylib-common.make
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/dylib-common.make
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/missing
+END
+xmlrpc-c-config.main
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/xmlrpc-c-config.main
+END
+dll-common.make
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/xmlrpc-c/!svn/ver/1871/stable/dll-common.make
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Makefile
+END
+irix-common.make
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/irix-common.make
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/aclocal.m4
+END
+stamp-h.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/stamp-h.in
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/install-sh
+END

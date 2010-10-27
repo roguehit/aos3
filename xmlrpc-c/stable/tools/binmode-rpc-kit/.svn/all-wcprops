@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/tools/binmode-rpc-kit
+END
+oct2bin
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/tools/binmode-rpc-kit/oct2bin
+END
+binmode-rpc2xml-rpc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/tools/binmode-rpc-kit/binmode-rpc2xml-rpc
+END
+binmode-rpc-rfc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/tools/binmode-rpc-kit/binmode-rpc-rfc.txt
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/tools/binmode-rpc-kit/COPYING
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/tools/binmode-rpc-kit/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/tools/binmode-rpc-kit/README
+END

@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/xmlrpc-c/!svn/ver/1794/stable/Windows
+END
+xmlparse.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlparse.dsp
+END
+CleanAll.bat
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/CleanAll.bat
+END
+gennmtab.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/gennmtab.dsp
+END
+xmlrpc_sample_add_server_w32httpsys.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_sample_add_server_w32httpsys.dsp
+END
+delsln.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/delsln.bat
+END
+xmlrpc_sample_add_server.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_sample_add_server.dsp
+END
+xmlrpc_sample_add_sync_client.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_sample_add_sync_client.dsp
+END
+ReadMeWin32.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/ReadMeWin32.txt
+END
+xmltok.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmltok.dsp
+END
+abyss.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/abyss.dsp
+END
+curllink.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/curllink.h
+END
+ReadMeOld.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/ReadMeOld.txt
+END
+UsingProxyDSP.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/UsingProxyDSP.txt
+END
+updcfg.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/updcfg.bat
+END
+xmlhttpsys.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlhttpsys.dsp
+END
+transport_config_win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/transport_config_win32.h
+END
+xmlrpc.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc.dsp
+END
+xmlrpc_cpp_proxy.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_cpp_proxy.dsp
+END
+diffcfg.bat
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/diffcfg.bat
+END
+mkvers1.bat
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/mkvers1.bat
+END
+xmlrpccpp.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpccpp.dsp
+END
+xmlrpc.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc.dsw
+END
+xmlrpc_win32_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_win32_config.h
+END
+UsingCURLinWin32.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/UsingCURLinWin32.txt
+END
+xmlrpc_misc.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_misc.dsp
+END
+xmlrpc_sample_add_asynch_client.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_sample_add_asynch_client.dsp
+END
+cpptest.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/cpptest.dsp
+END
+rpctest.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/rpctest.dsp
+END
+ConfigureWin32.bat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/ConfigureWin32.bat
+END
+xmlrpc_sample_auth_client.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/xmlrpc_sample_auth_client.dsp
+END
+CleanWin32.bat
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/CleanWin32.bat
+END
+mkvers.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1794/stable/Windows/mkvers.bat
+END
+win32_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/win32_config.h
+END
+configwin32.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/Windows/configwin32.dsp
+END

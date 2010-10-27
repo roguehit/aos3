@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/xmlrpc-c/!svn/ver/1840/stable/lib/expat/xmltok
+END
+xmltok_impl.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/xmlrpc-c/!svn/ver/1840/stable/lib/expat/xmltok/xmltok_impl.c
+END
+xmltok_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/xmltok_impl.h
+END
+xmltok_ns.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/xmltok_ns.c
+END
+xmltok.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/xmltok.c
+END
+dllmain.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/dllmain.c
+END
+xmlrole.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/xmlrole.c
+END
+utf8tab.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/utf8tab.h
+END
+xmltok.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/xmltok.h
+END
+xmldef.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/xmldef.h
+END
+latin1tab.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/latin1tab.h
+END
+asciitab.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/asciitab.h
+END
+xmlrole.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/xmlrole.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/Makefile
+END
+iasciitab.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/iasciitab.h
+END
+ascii.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmltok/ascii.h
+END

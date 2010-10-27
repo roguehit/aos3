@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/doc
+END
+HISTORY
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/doc/HISTORY
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/doc/TODO
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/doc/INSTALL
+END
+configure_doc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/doc/configure_doc
+END
+SECURITY
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/doc/SECURITY
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/doc/COPYING
+END
+DEVELOPING
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/doc/DEVELOPING
+END
+CREDITS
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/doc/CREDITS
+END
+TESTING
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/doc/TESTING
+END

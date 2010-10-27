@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/xmlrpc-c/!svn/ver/1957/stable/examples
+END
+xmlrpc_sample_add_server_w32httpsys.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_sample_add_server_w32httpsys.c
+END
+auth_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/auth_client.c
+END
+gen_sample_add_xml.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/gen_sample_add_xml.c
+END
+interrupted_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/interrupted_client.c
+END
+xmlrpc_socket_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_socket_server.c
+END
+xmlrpc_sample_add_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_sample_add_server.c
+END
+xmlrpc_asynch_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_asynch_client.c
+END
+xmlrpc_server_validatee.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_server_validatee.c
+END
+xmlrpc_sample_add_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_sample_add_client.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/README
+END
+xmlrpc_inetd_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_inetd_server.c
+END
+synch_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/synch_client.c
+END
+xmlrpc_loop_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_loop_server.c
+END
+xmlrpc_sample_add_server_cgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/xmlrpc_sample_add_server_cgi.c
+END
+interrupted_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/interrupted_server.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/examples/Makefile
+END

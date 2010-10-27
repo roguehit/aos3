@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport
+END
+lock_pthread.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/lock_pthread.c
+END
+curlmulti.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/curlmulti.c
+END
+curltransaction.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/curltransaction.h
+END
+curlversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/curlversion.h
+END
+lock_pthread.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/lock_pthread.h
+END
+curlmulti.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/curlmulti.h
+END
+xmlrpc_curl_transport.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/xmlrpc_curl_transport.c
+END
+curltransaction.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/curltransaction.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/Makefile
+END
+lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/curl_transport/lock.h
+END

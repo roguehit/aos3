@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1721/stable/tools/xmlrpc_pstream
+END
+test
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/tools/xmlrpc_pstream/test
+END
+xmlrpc_pstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/xmlrpc-c/!svn/ver/1638/stable/tools/xmlrpc_pstream/xmlrpc_pstream.cpp
+END
+xmlrpc_pstream.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/tools/xmlrpc_pstream/xmlrpc_pstream.html
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1721/stable/tools/xmlrpc_pstream/Makefile
+END

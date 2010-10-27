@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/xmlrpc-c/!svn/ver/1798/stable/lib/libutil
+END
+time.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/libutil/time.c
+END
+select.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/libutil/select.c
+END
+asprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1798/stable/lib/libutil/asprintf.c
+END
+utf8.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/xmlrpc-c/!svn/ver/1712/stable/lib/libutil/utf8.c
+END
+sleep.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/libutil/sleep.c
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/libutil/error.c
+END
+memblock.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/lib/libutil/memblock.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/libutil/Makefile
+END
+make_printable.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/libutil/make_printable.c
+END

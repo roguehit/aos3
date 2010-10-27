@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf
+END
+win32filemap.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/win32filemap.c
+END
+xmlfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/xmlfile.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/Makefile.in
+END
+unixfilemap.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/unixfilemap.c
+END
+xmlwf.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/xmlwf.dsp
+END
+filemap.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/filemap.h
+END
+xmlfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/xmlfile.h
+END
+codepage.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/codepage.c
+END
+xmltchar.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/xmltchar.h
+END
+readfilemap.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/readfilemap.c
+END
+codepage.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/codepage.h
+END
+xmlwf.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/lib/expat/xmlwf/xmlwf.c
+END

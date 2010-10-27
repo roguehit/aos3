@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test
+END
+testclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/testclient.cpp
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/test.cpp
+END
+tools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/test/tools.cpp
+END
+server_pstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/server_pstream.cpp
+END
+testclient.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/test/testclient.hpp
+END
+tools.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/tools.hpp
+END
+server_pstream.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/server_pstream.hpp
+END
+server_abyss.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/server_abyss.cpp
+END
+registry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/registry.cpp
+END
+testclient_dummy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/xmlrpc-c/!svn/ver/1031/stable/src/cpp/test/testclient_dummy.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/Makefile
+END
+server_abyss.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/server_abyss.hpp
+END
+registry.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/xmlrpc-c/!svn/ver/1598/stable/src/cpp/test/registry.hpp
+END

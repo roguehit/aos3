@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 193
+config.mk
+srcdir.mk
+config.log
+stamp-h
+stamp-h1
+config.cache
+config.status
+xmlrpc_config.h
+xmlrpc_amconfig.h
+shell_config
+xmlrpc-c-config
+xmlrpc-c-config.test
+transport_config.h
+version.h
+TAGS
+
+K 13
+svn:mergeinfo
+V 26
+/trunk:1931,1955-1956,1966
+END

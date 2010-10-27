@@ -1,0 +1,32 @@
+#
+#######################################################
+# From 'shell_config'
+#######################################################
+ENABLE_ABYSS_THREADS="yes"
+ENABLE_LIBXML2_BACKEND="no"
+MUST_BUILD_WININET_CLIENT="no"
+MUST_BUILD_CURL_CLIENT="yes"
+MUST_BUILD_LIBWWW_CLIENT="no"
+NEED_RPATH="no"
+NEED_WL_RPATH="RPATH)"
+LIBXMLRPCPP_NAME="xmlrpc++"
+LSOCKET=""
+WININET_LDADD=""
+WININET_RPATH=""
+WININET_WL_RPATH=""
+CURL_LDADD="-lcurl"
+CURL_RPATH="-rpath /usr/lib"
+CURL_WL_RPATH="-Wl,--rpath -Wl,/usr/lib"
+LIBWWW_LDADD=""
+LIBWWW_RPATH=""
+LIBWWW_WL_RPATH=""
+XMLRPC_MAJOR_RELEASE="1"
+XMLRPC_MINOR_RELEASE="16"
+XMLRPC_POINT_RELEASE="31"
+FEATURE_LIST="c++ abyss-server curl-client "
+PREFIX="/home/rohit/aos3/xmlrpc_build"
+HEADERINST_DIR="/home/rohit/aos3/xmlrpc_build/include"
+LIBINST_DIR="/home/rohit/aos3/xmlrpc_build/lib"
+BLDDIR="/home/rohit/aos3/xmlrpc-c/stable"
+ABS_SRCDIR="/home/rohit/aos3/xmlrpc-c/stable"
+#######################################################
