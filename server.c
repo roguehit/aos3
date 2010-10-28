@@ -22,50 +22,96 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#ifdef WIN32
-#  include <windows.h>
-#else
-#  include <unistd.h>
-#endif
+
+#include <unistd.h>
+
+#include "queue.h"
 
 #include <xmlrpc-c/base.h>
 #include <xmlrpc-c/server.h>
-#include <xmlrpc-c/server_abyss.h>
-
 #include <xmlrpc-c/config.h>  /* information about this build environment */
+#include <xmlrpc-c/server_abyss.h>
+#include <openssl/ssl.h>
 
 
-#ifdef WIN32
-  #define SLEEP(seconds) SleepEx(seconds * 1000, 1);
-#else
-  #define SLEEP(seconds) sleep(seconds);
-#endif
-
+#define SLEEP(seconds) sleep(seconds);
+void compute_mod( );
 
 static xmlrpc_value *
-sample_add(xmlrpc_env *   const envP,
-           xmlrpc_value * const paramArrayP,
+sample_add(xmlrpc_env *   const env,
+           xmlrpc_value * const param_array,
            void *         const serverInfo,
            void *         const channelInfo) {
 
-    xmlrpc_int32 x, y, z;
- 
-    /* Parse our argument array. */
-    xmlrpc_decompose_value(envP, paramArrayP, "(ii)", &x, &y);
-    if (envP->fault_occurred)
+   int i = 0;
+   Task temp;
+   xmlrpc_value * retval;
+
+   xmlrpc_value * arrayP;	
+	
+   xmlrpc_decompose_value(env, param_array, "(A)", &arrayP);
+
+   size_t size = xmlrpc_array_size(env, arrayP);
+
+	if (env->fault_occurred)
+		retval = NULL;
+	else 
+	{
+
+		for (i = 0; i < size && !env->fault_occurred; ++i) 
+		{
+			xmlrpc_value * strctP;
+			strctP = xmlrpc_array_get_item(env, arrayP, i);
+			if (!env->fault_occurred) 
+			{
+				if(i == 0)
+				{
+					const char * str1;
+					size_t str1_len;
+					xmlrpc_read_string_lp(env, strctP, &str1_len, &str1);				
+	
+					//xmlrpc_int32 curly;
+					//xmlrpc_decompose_value(env, strctP, "(s)",&ip[0]);
+					strcpy(temp._clientid, str1);
+				}
+				else
+				{
+					const char * str1;
+					size_t str1_len;
+					xmlrpc_read_string_lp(env, strctP, &str1_len, &str1);				
+				
+					if(i == 1)
+					strcpy(temp.p,str1);
+				
+					else if(i == 2)
+					strcpy(temp.m,str1);
+
+				}
+			}
+		}
+	}
+
+    xmlrpc_DECREF(arrayP);
+
+    if (env->fault_occurred)
         return NULL;
 
+    printf("Received: %s %s %s\n",temp._clientid,temp.p,temp.m);
+
     /* Add our two numbers. */
-    z = x + y;
+   // z = x + y;
 
     /* Sometimes, make it look hard (so client can see what it's like
        to do an RPC that takes a while).
     */
-    if (y == 1)
-        SLEEP(3);
+    compute_mod(&temp);
+  
+    xmlrpc_value *arr = xmlrpc_array_new(env);
+    xmlrpc_value *v1 = xmlrpc_build_value(env, "s", temp.response);
+    xmlrpc_array_append_item (env,arr,v1);
 
     /* Return our result. */
-    return xmlrpc_build_value(envP, "i", z);
+    return xmlrpc_build_value(env,"(A)", arr);
 }
 
 
@@ -81,7 +127,7 @@ main(int           const argc,
     xmlrpc_server_abyss_parms serverparm;
     xmlrpc_registry * registryP;
     xmlrpc_env env;
-
+ 
     if (argc-1 != 1) {
         fprintf(stderr, "You must specify 1 argument:  The TCP port "
                 "number on which the server will accept connections "
@@ -113,3 +159,29 @@ main(int           const argc,
 
     return 0;
 }
+
+void compute_mod(Task * task)
+{
+	BN_CTX *context;
+       	BIGNUM *r,*a,*p,*m;
+        if(task->p==NULL){
+	fprintf(stderr,"Wrong Exponent\n");
+	exit(0);
+        }
+	
+	context = BN_CTX_new();
+        r = BN_new();
+	a = BN_new();
+	p = BN_new();
+	m = BN_new();
+
+	BN_dec2bn(&a,"2");
+	BN_dec2bn(&p,task->p);
+	BN_dec2bn(&m,task->m);
+	BN_mod_exp(r,a,p,m,context);
+
+	strcpy(task->response,BN_bn2dec(r));
+	
+	return;
+}
+
