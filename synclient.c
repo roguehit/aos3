@@ -39,17 +39,41 @@ int
 main(int           const argc, 
      const char ** const argv) {
 
-    xmlrpc_env env;
-    xmlrpc_value * resultP;
-    
-    const char * const serverUrl = "http://localhost:8080/RPC2";
-    const char * const methodName = "calculate_modexp";
-
-    if (argc-1 > 0) {
-        fprintf(stderr, "This program has no arguments\n");
-        exit(1);
+    if(argc < 2 )
+    {
+    fprintf(stderr,"Usage : ./client <Semantics> <No of Servers>\n");
+    exit(EXIT_FAILURE);
     }
 
+    const char const **serverUrl;
+    int i = 0, port = 8080 ;
+    xmlrpc_env env;
+    xmlrpc_value * resultP;
+    int nUrl = atoi(argv[2]);
+
+    if(nUrl == 0)
+    {
+    fprintf(stderr,"Please enter non-zero number of servers\n");
+    exit(EXIT_FAILURE);
+    }
+
+#if 0   
+    serverUrl = (char const**) malloc (nUrl * sizeof(char*));
+    for(i = 0 ; i < nUrl ; i++){
+    serverUrl[i] = (char *) malloc(50 * sizeof(char));
+    sprintf(serverUrl[i],"http://localhost:%d/RPC2",port++);
+    }
+#endif
+#if 1 
+        serverUrl = malloc(sizeof(char *) * 5);
+        serverUrl[0] = "http://localhost:8080/RPC2";
+        serverUrl[1] = "http://localhost:8081/RPC2";
+        serverUrl[2] = "http://localhost:8082/RPC2";
+        serverUrl[3] = "http://localhost:8083/RPC2";
+        serverUrl[4] = "http://localhost:8084/RPC2"; 
+#endif    
+    const char * const methodName = "calculate_modexp";
+    //const char * const serverUrl = "http://localhost:8080/RPC2";
     /* Initialize our error-handling environment. */
     xmlrpc_env_init(&env);
 
@@ -63,14 +87,15 @@ main(int           const argc,
    // printf("Result is : %d\n",xmlrpc_validate_utf8("Hello World"));
    xmlrpc_value *arr = xmlrpc_array_new(&env);
         
-   resultP = xmlrpc_client_call(&env, serverUrl, methodName,"(A)", generate_request_array(&env , arr) );
-
+   //resultP = xmlrpc_client_call(&env, serverUrl, methodName,"(A)", generate_request_array(&env , arr) );
+   resultP = xmlrpc_client_call_multi_sync(atoi(argv[1]),nUrl, &env, serverUrl, methodName,"(A)", generate_request_array(&env , arr));	
+   printf("Checking for Death\n");
    dieIfFaultOccurred(&env);
     
     /* Get our sum and print it out. */
    //xmlrpc_read_int(&env, resultP, &primeResult);
   // xmlrpc_env *   const dummy;
-      	
+   printf("Extracting Results\n");
    const char* result = extract_result ( &env , resultP);    
 
    dieIfFaultOccurred(&env);

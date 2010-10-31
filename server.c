@@ -1,25 +1,3 @@
-/* A simple standalone XML-RPC server written in C. */
-
-/* This server knows one RPC class (besides the system classes):
-   "sample.add".
-
-   The program takes one argument: the HTTP port number on which the server
-   is to accept connections, in decimal.
-
-   You can use the example program 'xmlrpc_sample_add_client' to send an RPC
-   to this server.
-
-   Example:
-
-   $ ./xmlrpc_sample_add_server 8080&
-   $ ./xmlrpc_sample_add_client
-
-   For more fun, run client and server in separate terminals and turn on
-   tracing for each:
-
-   $ export XMLRPC_TRACE_XML=1
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -38,7 +16,7 @@
 void compute_mod( );
 
 static xmlrpc_value *
-sample_add(xmlrpc_env *   const env,
+calculate_modexp(xmlrpc_env *   const env,
            xmlrpc_value * const param_array,
            void *         const serverInfo,
            void *         const channelInfo) {
@@ -121,8 +99,8 @@ main(int           const argc,
      const char ** const argv) {
 
     struct xmlrpc_method_info3 const methodInfo = {
-        /* .methodName     = */ "sample.add",
-        /* .methodFunction = */ &sample_add,
+        /* .methodName     = */ "calculate_modexp",
+        /* .methodFunction = */ &calculate_modexp,
     };
     xmlrpc_server_abyss_parms serverparm;
     xmlrpc_registry * registryP;

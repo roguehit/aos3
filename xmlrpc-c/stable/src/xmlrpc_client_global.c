@@ -8,13 +8,34 @@
 #include <xmlrpc-c/client.h>
 #include <xmlrpc-c/client_int.h>
 #include <xmlrpc-c/client_global.h>
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /*=========================================================================
    Global Client
 =========================================================================*/
+#define MAX_SERVER 100
 
 static struct xmlrpc_client * globalClientP;
 static bool globalClientExists = false;
+void* sync_func( void* t ); 
+
+
+
+typedef struct __SyncThreadArg{
+pthread_t tid;
+int threadid;
+xmlrpc_env * envP; 
+char* serverUrl;
+const char* methodName;
+const char* format;
+va_list args;
+}SyncThreadArg; 
+
+
+xmlrpc_value *result[MAX_SERVER];
+pthread_mutex_t sync_write_result;
 
 
 void 
@@ -26,6 +47,7 @@ xmlrpc_client_init2(xmlrpc_env *                      const envP,
                     unsigned int                      const parmSize) {
 /*----------------------------------------------------------------------------
    This function is not thread-safe.
+
 -----------------------------------------------------------------------------*/
     if (globalClientExists)
         xmlrpc_faultf(
@@ -152,8 +174,6 @@ clientCall_va(xmlrpc_env *               const envP,
     }
 }
 
-
-
 xmlrpc_value * 
 xmlrpc_client_call(xmlrpc_env * const envP,
                    const char * const serverUrl,
@@ -161,7 +181,8 @@ xmlrpc_client_call(xmlrpc_env * const envP,
                    const char * const format,
                    ...) {
 
-    xmlrpc_value * resultP;
+
+    xmlrpc_value * resultP ;
     
     xmlrpc_server_info * serverInfoP;
 
@@ -170,17 +191,90 @@ xmlrpc_client_call(xmlrpc_env * const envP,
     if (!envP->fault_occurred) {
         va_list args;
         va_start(args, format);
-    
         clientCall_va(envP, serverInfoP, methodName, format, args, &resultP);
-
+	
         va_end(args);
         xmlrpc_server_info_free(serverInfoP);
-    }
+    }    
     
     return resultP;
 }
 
+void* sync_func( void* t ) 
+{
+    SyncThreadArg *arg = (SyncThreadArg*)t; 
+    printf("REQUESTING FROM URL:%s\n",arg->serverUrl);
+ 
+    xmlrpc_server_info * serverInfoP;    
+    xmlrpc_value * resultP ;
 
+    serverInfoP = xmlrpc_server_info_new(arg->envP, arg->serverUrl);
+       
+    if (!arg->envP->fault_occurred) {
+ 
+        clientCall_va(arg->envP, serverInfoP, arg->methodName, arg->format, arg->args, &resultP);
+	
+        xmlrpc_server_info_free(serverInfoP);
+    }    
+
+    pthread_mutex_lock(&sync_write_result);
+    result[arg->threadid] = resultP;  
+    pthread_mutex_unlock(&sync_write_result);
+    printf("Wrote Results from %d\n",arg->threadid);
+    pthread_exit(0);
+}
+
+xmlrpc_value *
+xmlrpc_client_call_multi_sync(int semantics ,int nUrl , xmlrpc_env * const envP,
+                   const char ** const serverUrl,
+                   const char *  const methodName,
+                   const char *  const format,
+		   ...) {
+xmlrpc_value *resultP;
+
+
+int i = 0;
+//printf("Sending Request to URL : %s\n",serverUrl[0]);
+#if 1
+SyncThreadArg * syncthreadarg = (SyncThreadArg*) malloc (sizeof(SyncThreadArg) * nUrl);
+
+/*Making the Threads Joinable*/
+pthread_attr_t attr;
+pthread_attr_init(&attr);
+pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
+
+va_list args;
+va_start(args, format);
+
+pthread_mutex_init(&sync_write_result, NULL);
+
+for(i = 0; i < nUrl ; i++ ) 
+{
+syncthreadarg[i].threadid = i;
+syncthreadarg[i].envP = envP;
+syncthreadarg[i].serverUrl = serverUrl[i];
+syncthreadarg[i].methodName = methodName;
+syncthreadarg[i].format = format;
+syncthreadarg[i].args = args;
+
+pthread_create(&(syncthreadarg[i].tid),&attr,sync_func,(void*) &syncthreadarg[i]);
+
+}
+
+va_end(args);
+
+pthread_attr_destroy(&attr);
+
+for(i=0; i < nUrl; i++) 
+pthread_join(syncthreadarg[i].tid, NULL);
+
+printf("ALL Threads Complete & Joined\n");
+
+//resultP = xmlrpc_client_call(envP, serverUrl[0],methodName,format);
+#endif
+
+return result[4];
+}
 
 xmlrpc_value * 
 xmlrpc_client_call_server(xmlrpc_env *               const envP,

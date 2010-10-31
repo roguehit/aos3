@@ -42,6 +42,16 @@ xmlrpc_client_call(xmlrpc_env * const envP,
                    const char * const format,
                    ...);
 
+
+void* sync_func(void* t);
+
+xmlrpc_value * 
+xmlrpc_client_call_multi_sync(int semantics, int nUrl, xmlrpc_env * const envP,
+                   const char ** server_url,
+                   const char * const method_name,
+                   const char * const format,
+                   ...);
+
 xmlrpc_value * 
 xmlrpc_client_call_params(xmlrpc_env *   const envP,
                           const char *   const serverUrl,

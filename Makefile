@@ -7,7 +7,9 @@ server: server.c
 client: client.c 
 	gcc client.c $(CFLAGS) -o client
 
+synclient: synclient.c
+	gcc synclient.c $(CFLAGS) -o synclient
 phony: clean
 clean:
-	@rm client server
+	@rm client server synclient
 	@echo Cleaned
